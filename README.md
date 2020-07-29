@@ -7,6 +7,8 @@ Implemented a B+tree based indexing to speed up searching in a relational databa
 ](url)
 
 ## Data Panel
+![Screenshot from 2020-07-29 10-10-37](https://user-images.githubusercontent.com/46842087/88757476-cb4d8e80-d183-11ea-9ecc-1ae8d32200e1.png)
+
 ## Index Panel
 ![ind](https://user-images.githubusercontent.com/46842087/88757389-7dd12180-d183-11ea-9ac0-eaddd7cec996.png)
 
