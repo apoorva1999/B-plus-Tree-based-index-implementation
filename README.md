@@ -51,7 +51,15 @@ For demonstration purpose, the schema of the table is as :
 ### Query Panel
 ![search](https://user-images.githubusercontent.com/46842087/88757370-73af2300-d183-11ea-9162-1212890a42f4.png)
 
+#### Index Seek
+
+**Index seek** is performed if query is made using the attribute on which indexes are created.
+
 ![image](https://user-images.githubusercontent.com/46842087/88779186-19c05480-d1a7-11ea-8711-1dc89a6e3ae6.png)
+
+#### Table Scan
+
+**Table scan** is performed otherwise. Time taken in table scan is considerably more than that in index seek.
 
 ![image](https://user-images.githubusercontent.com/46842087/88779494-7885ce00-d1a7-11ea-8de1-0264def1d7e5.png)
 
