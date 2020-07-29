@@ -1,7 +1,7 @@
 # B+-Tree-based-index-implementation
 Implemented a B+tree based indexing to speed up searching in a relational database resulting in the reduction of search time to **log(n) with base d** where d is the degree of the B+tree and n is the number of index pages
 
-# Workflow
+## Workflow
 
 1. Compile Client.java file present in the **src** folder.
 
