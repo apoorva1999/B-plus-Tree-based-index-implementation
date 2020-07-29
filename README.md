@@ -43,10 +43,17 @@ For demonstration purpose, the schema of the table is as :
 ### Index Panel
 ![ind](https://user-images.githubusercontent.com/46842087/88757389-7dd12180-d183-11ea-9ac0-eaddd7cec996.png)
 
+![image](https://user-images.githubusercontent.com/46842087/88777407-cc42e800-d1a4-11ea-8272-f0fef330f48a.png)
+
+
 7. Now, it's time to enjoy the benefits of indexing. Switch to query panel.
 
 ### Query Panel
 ![search](https://user-images.githubusercontent.com/46842087/88757370-73af2300-d183-11ea-9162-1212890a42f4.png)
+
+![image](https://user-images.githubusercontent.com/46842087/88779186-19c05480-d1a7-11ea-8711-1dc89a6e3ae6.png)
+
+![image](https://user-images.githubusercontent.com/46842087/88779494-7885ce00-d1a7-11ea-8de1-0264def1d7e5.png)
 
 ## Theory
 
