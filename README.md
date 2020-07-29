@@ -1,20 +1,52 @@
 # B+-Tree-based-index-implementation
 Implemented a B+tree based indexing to speed up searching in a relational database resulting in the reduction of search time to **log(n) with base d** where d is the degree of the B+tree and n is the number of index pages
 
-## Home Panel
+# Workflow
+
+1. Compile Client.java file present in the **src** folder.
+
+![Screenshot from 2020-07-29 13-35-49](https://user-images.githubusercontent.com/46842087/88774321-e8448a80-d1a0-11ea-8fe5-773eeb16e08d.png)
+
+2.  Run the Client file and **pass an empty folder** as an argument for the creation of data and indexes. 
+
+![Screenshot from 2020-07-29 13-36-58](https://user-images.githubusercontent.com/46842087/88774491-25a91800-d1a1-11ea-8e02-9aeeb7beffb7.png)
+
+Add the complete path of the empty folder while running the client file.
+
+![image](https://user-images.githubusercontent.com/46842087/88775658-98ff5980-d1a2-11ea-940b-f9bcd7e1945c.png)
+
+3. Here you go! The window launches with first page as the **home page** giving a brief summary about the project.
+
+### Home Panel
 [
 ![B+trees](https://user-images.githubusercontent.com/46842087/88757045-c5a37900-d182-11ea-9feb-4c4b30f917ee.png)
 ](url)
 
-## Data Panel
+4. Users can create data by switching to the data panel and then enter the number of rows to be created.
+
+### Data Panel
+
 ![Screenshot from 2020-07-29 10-10-37](https://user-images.githubusercontent.com/46842087/88757476-cb4d8e80-d183-11ea-9ecc-1ae8d32200e1.png)
 
-## Index Panel
+![image](https://user-images.githubusercontent.com/46842087/88776975-5474bd80-d1a4-11ea-9feb-334250464bab.png)
+
+Data will be stored in the form of extents. 
+
+Extent ->  Pages -> Rows
+![image](https://user-images.githubusercontent.com/46842087/88777098-78d09a00-d1a4-11ea-86bf-e00bb9b1ee37.png)
+
+For demonstration purpose, the schema of the table is as :
+     Roll number  |   Name   |   Username  |    Password
+
+6.  Users can create Non-Clustered indexing [[?]](https://www.sqlshack.com/what-is-the-difference-between-clustered-and-non-clustered-indexes-in-sql-server/) on any attribute of the table from the index panel which has a drop-down list to select the attribute name for the creation of indexes.
+
+### Index Panel
 ![ind](https://user-images.githubusercontent.com/46842087/88757389-7dd12180-d183-11ea-9ac0-eaddd7cec996.png)
 
-## Query Panel
-![search](https://user-images.githubusercontent.com/46842087/88757370-73af2300-d183-11ea-9162-1212890a42f4.png)
+7. Now, it's time to enjoy the benefits of indexing. Switch to query panel.
 
+### Query Panel
+![search](https://user-images.githubusercontent.com/46842087/88757370-73af2300-d183-11ea-9162-1212890a42f4.png)
 
 ## Theory
 
